@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>{{config('app.name','Laravel')}} </title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -83,7 +83,6 @@
                 <div class="title m-b-md">
                     <!-- This gives dynamic app-name -->
                 {{ config('app.name', 'Laravel') }}
-                    Laravel
                 </div>
 
                 <div class="links">
