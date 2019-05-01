@@ -81,7 +81,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    <!-- This gives dynamic app-name -->
+                {{ config('app.name', 'Laravel') }}
                 </div>
 
                 <div class="links">
