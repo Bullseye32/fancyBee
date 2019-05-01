@@ -83,6 +83,7 @@
                 <div class="title m-b-md">
                     <!-- This gives dynamic app-name -->
                 {{ config('app.name', 'Laravel') }}
+                    Laravel
                 </div>
 
                 <div class="links">
